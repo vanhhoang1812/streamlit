@@ -24,9 +24,10 @@ df = pd.read_csv('data/dataset_ok.csv')
 
 st.dataframe(df)
 
-st.write("""
-Source data: [Kaggle](https://www.kaggle.com/datasets/refiaozturk/online-shopping-dataset)
-""")
+st.markdown("Source data: [Kaggle](https://www.kaggle.com/datasets/refiaozturk/online-shopping-dataset)")
+st.markdown("Source code: [Github](https://github.com/vanhhoang1812/streamlit.git)")
+st.markdown("Streamlit Web App: [Streamlit](https://demo-app-vanh.streamlit.app/)")
+
 
 st.markdown(""" Follow me: 
 [Github](https://github.com/VanhHoang),
